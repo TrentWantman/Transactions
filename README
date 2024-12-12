@@ -1,0 +1,31 @@
+Overview
+This project implements an in-memory key-value database with transaction support in Python. The database allows users to begin transactions, put key-value pairs, get values, commit changes, or roll back transactions.
+Prerequisites
+
+Python 3.7 or higher
+No additional libraries required
+
+Installation
+
+Clone the repository
+Ensure you have Python 3.7+ installed
+
+Running the Code
+To run the implementation:
+bashCopypython in_memory_db.py
+Key Features
+
+Supports transaction-based operations
+In-memory key-value storage
+Allows multiple operations within a single transaction
+Supports commit and rollback functionality
+
+Future Improvements for the Assignment
+
+Add more robust error handling and specific exception types
+Implement nested transaction support
+Add persistent storage capabilities (e.g., write to disk)
+Create more comprehensive test cases covering edge scenarios
+Add logging to track transaction operations
+Implement a maximum transaction size or timeout mechanism
+Add method to check current transaction status
