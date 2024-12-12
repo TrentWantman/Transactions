@@ -29,3 +29,12 @@ Create more comprehensive test cases covering edge scenarios
 Add logging to track transaction operations
 Implement a maximum transaction size or timeout mechanism
 Add method to check current transaction status
+
+Assignment Modification Suggestions
+To make this assignment more comprehensive for future iterations, consider:
+
+Requiring students to implement additional database operations like delete
+Adding performance benchmarking requirements
+Introducing concurrency challenges to test transaction isolation
+Requiring implementation of ACID properties beyond the current scope
+Creating more complex test scenarios that stress the transaction management
